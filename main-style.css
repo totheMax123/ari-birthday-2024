@@ -52,11 +52,12 @@ input[form=main_test] {
   cursor: pointer;
 }
 
-input[form=main_test]:focus {
+input[form=main_test]:hover {
+  transition: ease-in 0.25s;
   background-color: black;
-  border-bottom: 2px solid lightgray;
   color: aquamarine;
   width: 25%;
   margin: 20px 20px;
   cursor: pointer;
 }
+
