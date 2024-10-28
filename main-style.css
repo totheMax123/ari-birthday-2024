@@ -39,3 +39,24 @@ input[type=submit] {
   border-block-color: lightsalmon;
 }
 
+form[name=main_test] {
+  margin: 20px;
+}
+
+input[form=main_test] {
+  background-color: lightgray;
+  border-bottom: 2px solid black;
+  color: darkgreen;
+  width: 25%;
+  margin: 20px 20px;
+  cursor: pointer;
+}
+
+input[form=main_test]:focus {
+  background-color: black;
+  border-bottom: 2px solid lightgray;
+  color: aquamarine;
+  width: 25%;
+  margin: 20px 20px;
+  cursor: pointer;
+}
