@@ -36,7 +36,7 @@ input[type=submit] {
   padding: 5px 5px;
   color: aquamarine;
   background-color: lightsalmon;
-  border-block-color: lightsalmon;
+  border: none;
 }
 
 input[type=submit]:hover {
@@ -49,6 +49,7 @@ form[name=main_test] {
 
 input[form=main_test] {
   background-color: lightgray;
+  border: none;
   border-bottom: 2px solid black;
   color: darkgreen;
   width: 25%;
