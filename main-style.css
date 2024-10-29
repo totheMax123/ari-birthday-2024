@@ -39,6 +39,10 @@ input[type=submit] {
   border-block-color: lightsalmon;
 }
 
+input[type=submit]:hover {
+  cursor: pointer;
+}
+
 form[name=main_test] {
   margin: 20px;
 }
