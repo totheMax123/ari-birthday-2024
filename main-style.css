@@ -47,7 +47,7 @@ form[name=main_test] {
   margin: 20px;
 }
 
-input[form=main_test] {
+button[form=main_test] {
   background-color: lightgray;
   border: none;
   border-bottom: 2px solid black;
@@ -57,7 +57,7 @@ input[form=main_test] {
   cursor: pointer;
 }
 
-input[form=main_test]:hover {
+button[form=main_test]:hover {
   transition: ease-in 0.25s;
   background-color: black;
   color: aquamarine;
