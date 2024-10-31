@@ -82,10 +82,12 @@ p {
 }
 
 .animated {
-    /* animation-duration: 0s 2s; */
+    animation-duration: 2s;
     animation-fill-mode: both;
-    /* -webkit-animation-duration: 0s 2s; */
-    -webkit-animation-fill-mode: both
+    animation-delay: 0s 2s;
+    -webkit-animation-duration: 2s;
+    -webkit-animation-fill-mode: both;
+    -webkit-animation-delay: 0s 2s;
 }
 
 .animatedFadeInUp {
