@@ -29,25 +29,11 @@ label[for=datepick] {
   color: gray;
 }
 
-input[type=submit] {
-  width: 225px;
-  height: 30px;
-  font-family: "Helvetica";
-  padding: 5px 5px;
-  color: aquamarine;
-  background-color: lightsalmon;
-  border: none;
-}
-
-input[type=submit]:hover {
-  cursor: pointer;
-}
-
 form[name=main_content] {
   margin: 20px;
 }
 
-input[form=main_content] {
+input[tyoe=submit]{
   background-color: lightgray;
   border: none;
   border-bottom: 2px solid black;
@@ -57,7 +43,7 @@ input[form=main_content] {
   cursor: pointer;
 }
 
-input[form=main_content]:hover {
+input[tyoe=submit]:hover {
   transition: ease-in 0.25s;
   background-color: black;
   color: aquamarine;
