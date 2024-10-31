@@ -2,20 +2,30 @@
 <html>
 
 <head>
-  <link rel="stylesheet" href="main-style.css">
+    <link rel="stylesheet" href="main-style.css">
 </head>
+
 <body>
     <h1>
         Happy birthday Ari!
     </h1>
     <!-- add a picture of a birthday cake? -->
-    <form name="main_test" action="/ari-birthday-2024/index.html" method="GET">
+
+    <form name="password_input" action="/ari-birthday-2024/main.html" method="get">
+        <label for="datepick">Password: </label>
+        <input type="date" id="datepick" name="datepick"><br><br>
+        <input type="submit" value="Submit">
+    </form>
+
+
+    <!-- <form name="main_test" action="/ari-birthday-2024/index.html" method="GET">
         <input type="submit" name="ariism" value="Submit" form="main_test">
-        <!-- the above action doesn't work???? 
+        the above action doesn't work???? 
         <input type="submit" value="Maxism" form="main_test">
         <br>
         <input type="submit" value="Date idea" form="main_test">
-        <input type="submit" value="Compliment :)" form="main_test"> -->
-      </form>
+        <input type="submit" value="Compliment :)" form="main_test">
+      </form> -->
 </body>
+
 </html>
