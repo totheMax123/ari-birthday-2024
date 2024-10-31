@@ -1,10 +1,10 @@
-const fs = require('fs');
-
 function select_ariism() {
-    fs.readFile("assets/ariisms.txt", (err, data) => {
-        if (err) throw err;
-      
-        console.log(data.toString());
-      });
-    
+    var txtFile = new XMLHttpRequest();
+    txtFile.open("GET", "http://tothemax123.github.io/assests/ariisms.txt", true);
+    txtFile.onreadystatechange = function() {
+      if (txtFile.readyState === 4 && txtFile.status == 200) {
+         allText = txtFile.responseText;
+      }
+    document.getElementById('main_content').innerHTML = allText;
+    }
 }
