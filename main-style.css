@@ -32,6 +32,9 @@ label[for=datepick] {
 
 .mainForm {
   display: inline;
+}
+
+.mainContent {
   text-align: center;
 }
 
