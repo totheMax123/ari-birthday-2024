@@ -106,6 +106,4 @@ p {
     opacity: 0;
     animation-name: fadeInUp2;
     -webkit-animation-name: fadeInUp2;
-    animation-delay: 2s;
-    -webkit-animation-delay: 2s;
 }
