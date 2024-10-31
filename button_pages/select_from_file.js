@@ -1,4 +1,4 @@
-function select_date_idea() {
+function select_ariism() {
     const xhttp = new XMLHttpRequest();
     xhttp.onload = function () {
         // document.getElementById("demo").innerHTML = this.responseText;
