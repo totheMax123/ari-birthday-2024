@@ -17,6 +17,7 @@ p {
 
 form {
   text-align: center;
+  margin: 20px;
 }
 
 input[type=date] {
@@ -29,8 +30,8 @@ label[for=datepick] {
   color: gray;
 }
 
-form[name=main_content] {
-  margin: 20px;
+.mainForm {
+  display: inline;
 }
 
 input[type=submit]{
