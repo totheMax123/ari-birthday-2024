@@ -43,11 +43,11 @@ input[type=submit]:hover {
   cursor: pointer;
 }
 
-form[name=main_test] {
+form[name=main_content] {
   margin: 20px;
 }
 
-input[form=main_test] {
+input[form=main_content] {
   background-color: lightgray;
   border: none;
   border-bottom: 2px solid black;
