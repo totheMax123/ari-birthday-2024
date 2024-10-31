@@ -33,7 +33,7 @@ form[name=main_content] {
   margin: 20px;
 }
 
-input[tyoe=submit]{
+input[type=submit]{
   background-color: lightgray;
   border: none;
   border-bottom: 2px solid black;
@@ -43,7 +43,7 @@ input[tyoe=submit]{
   cursor: pointer;
 }
 
-input[tyoe=submit]:hover {
+input[type=submit]:hover {
   transition: ease-in 0.25s;
   background-color: black;
   color: aquamarine;
