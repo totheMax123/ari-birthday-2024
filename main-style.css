@@ -57,7 +57,7 @@ input[form=main_content] {
   cursor: pointer;
 }
 
-input[form=main_test]:hover {
+input[form=main_content]:hover {
   transition: ease-in 0.25s;
   background-color: black;
   color: aquamarine;
