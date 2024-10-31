@@ -42,6 +42,6 @@ function select_compliment() {
         let phrase = phrase_array[Math.floor(Math.random() * (phrase_array.length - 1))];
         document.getElementById("main_content").innerHTML = phrase;
     }
-    xhttp.open("GET", "https://tothemax123.github.io/ari-birthday-2024/assets/compliment.txt", true);
+    xhttp.open("GET", "https://tothemax123.github.io/ari-birthday-2024/assets/compliments.txt", true);
     xhttp.send();
 }
