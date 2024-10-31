@@ -82,9 +82,9 @@ p {
 }
 
 .animated {
-    animation-duration: 2s;
+    animation-duration: 1;
     animation-fill-mode: both;
-    -webkit-animation-duration: 2s;
+    -webkit-animation-duration: 1s;
     -webkit-animation-fill-mode: both;
 }
 
@@ -105,7 +105,7 @@ p {
 .fadeInUp2 {
     opacity: 0;
     animation-name: fadeInUp2;
-    animation-delay: 2s;
+    animation-delay: 1s;
     -webkit-animation-name: fadeInUp2;
-    -webkit-animation-delay: 2s;
+    -webkit-animation-delay: 1s;
 }
