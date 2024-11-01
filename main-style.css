@@ -64,9 +64,3 @@ input[type=submit]:hover {
   background-color: var(--green);
   cursor: pointer;
 }
-
-
-html {
-  visibility: visible;
-  opacity: 1;
-}

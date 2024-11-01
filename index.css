@@ -15,7 +15,7 @@ input[type=submit] {
     height: 30px;
     font-family: "Helvetica";
     padding: 5px 5px;
-    color: var(--pink);
+    color: var(--lightred);
     background-color: var(--yellow);
     border: none;
 }
