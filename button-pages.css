@@ -109,8 +109,3 @@ p {
     -webkit-animation-name: fadeInUp2;
     -webkit-animation-delay: 1s;
 }
-
-html {
-    visibility: visible;
-    opacity: 1;
-}
