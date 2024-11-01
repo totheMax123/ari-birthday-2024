@@ -29,9 +29,14 @@ p {
     font-size: 3rem;
     width: 750px;
     color: var(--yellow);
-    
-    position: relative;
-    left: var(--center-offset);
+}
+
+.outer {
+    margin: auto;
+}
+
+.inner {
+    margin: 50px;
 }
 
 p.center {

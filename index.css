@@ -12,7 +12,7 @@
 input[type=submit] {
     width: 225px;
     height: 50px;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     font-family: var(--font);
     padding: 5px 5px;
     color: var(--purple);
@@ -26,4 +26,8 @@ input[type=submit]:hover {
     padding: 5px 5px;
     color: var(--purple);
     background-color: var(--olive);
+}
+
+p {
+    font-size: 1.2rem;
 }
