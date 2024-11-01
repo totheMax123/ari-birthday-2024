@@ -5,6 +5,7 @@
     --olive: rgb(75, 80, 67);
     --yellow: rgb(255, 250, 105);
     --center-offset: 150px;
+    --font: "Helvetica"
   }
 
 body {
@@ -15,6 +16,7 @@ body {
 h1 {
     color: var(--purple);
     font-size: 5rem;
+    font-family: var(--font);
     text-align: center;
     
     position: relative;
@@ -23,11 +25,26 @@ h1 {
 
 p {
     text-align: center;
+    font-family: var(--font);
     font-size: 3rem;
+    width: 750px;
     color: var(--yellow);
     
     position: relative;
     left: var(--center-offset);
+}
+
+p.center {
+    text-align: center;
+    font-family: var(--font);
+    font-size: 3rem;
+    color: var(--yellow);
+    
+    position: absolute;
+    top: 150px;
+    bottom: 0;
+    left: 0;
+    right: 0;
 }
 
 @keyframes fadeInUp {
