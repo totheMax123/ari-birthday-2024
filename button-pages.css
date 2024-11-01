@@ -41,11 +41,10 @@ p.center {
     font-size: 3rem;
     color: var(--yellow);
     
-    position: absolute;
-    top: 150px;
-    bottom: 0;
-    left: 0;
-    right: 0;
+    position: fixed;
+    top: 100px;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 @keyframes fadeInUp {
