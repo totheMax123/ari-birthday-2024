@@ -7,12 +7,12 @@
 }
 
 body {
-  background-color: var(--purple);
+  background-color: var(--darkpurple);
   font-family: "Helvetica";
 }
 
 h1 {
-  color: var(--darkpurple);
+  color: var(--purple);
   font-size: 5rem;
   text-align: center;
 }
@@ -46,21 +46,32 @@ label[for=datepick] {
 
 .mainContent {
   text-align: center;
+  position: absolute;
+  
+  top: 35%;
+  bottom: 0;
+  right: 0;
+  left: 0;
 }
 
 input[type=submit]{
-  background-color: var(--darkpurple);
-  border: none;
-  border-bottom: 2px solid var(--olive);
-  color: var(--yellow);
-  height: 50px;
-  width: 25%;
+  transition: ease-in 0.25s;
+  background-color: var(--olive);
+  border: 2px ridge var(--purple);
+  border-bottom: 2px solid var(--purple);
+  border-radius: 10px;
+  color: var(--purple);
+  height: 60px;
+  width: 30%;
   margin: 20px 20px;
   cursor: pointer;
 }
 
 input[type=submit]:hover {
   transition: ease-in 0.25s;
-  background-color: var(--olive);
+  border: 2px solid var(--purple);
+  border-radius: 10px;
+  background-color: var(--darkpurple);
+  color: var(--purple);
   cursor: pointer;
 }
