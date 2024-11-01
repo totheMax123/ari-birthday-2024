@@ -15,8 +15,8 @@ input[type=submit] {
     height: 30px;
     font-family: "Helvetica";
     padding: 5px 5px;
-    color: aquamarine;
-    background-color: lightsalmon;
+    color: --pink;
+    background-color: --yellow;
     border: none;
 }
 

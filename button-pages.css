@@ -1,10 +1,19 @@
+:root {
+    --purple: rgb(214, 174, 221);
+    --pink: rgb(221, 174, 204);
+    --lightred: rgb(221, 174, 181);
+    --clay: rgb(221, 191, 174);
+    --yellow: rgb(221, 214, 174);
+    --green: rgb(205, 221, 174);
+}
+
 body {
-    background-color: pink;
+    background-color: --purple;
     font-family: "Helvetica";
 }
 
 h1 {
-    color: darkred;
+    color: --lightred;
     font-size: 5rem;
     text-align: center;
 }
@@ -12,7 +21,7 @@ h1 {
 p {
     text-align: center;
     font-size: 1.2rem;
-    color: darkmagenta;
+    color: --pink;
 }
 
 @keyframes fadeInUp {
