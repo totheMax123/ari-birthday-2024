@@ -24,19 +24,15 @@ h1 {
 }
 
 p {
-    text-align: center;
     font-family: var(--font);
     font-size: 3rem;
     width: 750px;
     color: var(--yellow);
-}
-
-.outer {
-    margin: auto;
-}
-
-.inner {
-    margin: 50px;
+    
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(0px, -50px);
 }
 
 p.center {
