@@ -57,3 +57,8 @@ input[type=submit]:hover {
   cursor: pointer;
 }
 
+
+html {
+  visibility: visible;
+  opacity: 1;
+}
