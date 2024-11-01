@@ -8,12 +8,12 @@
 }
 
 body {
-  background-color: --purple;
+  background-color: var(--purple);
   font-family: "Helvetica";
 }
 
 h1 {
-  color: --lightred;
+  color: var(--lightred);
   font-size: 5rem;
   text-align: center;
 }
@@ -21,7 +21,7 @@ h1 {
 p {
   text-align: center;
   font-size: 1.2rem;
-  color: --pink;
+  color: var(--pink);
 }
 
 form {
@@ -30,14 +30,14 @@ form {
 }
 
 input[type=date] {
-  color: --yellow;
-  background-color: --pink;
+  color: var(--yellow);
+  background-color: var(--pink);
   height: 20px;
   padding: 2px 10px;
 }
 
 label[for=datepick] {
-  color: --pink;
+  color: var(--pink);
 }
 
 .mainForm {
@@ -49,10 +49,10 @@ label[for=datepick] {
 }
 
 input[type=submit]{
-  background-color: --lightred;
+  background-color: var(--lightred);
   border: none;
-  border-bottom: 2px solid --green;
-  color: --pink;
+  border-bottom: 2px solid var(--green);
+  color: var(--pink);
   height: 50px;
   width: 25%;
   margin: 20px 20px;
@@ -61,7 +61,7 @@ input[type=submit]{
 
 input[type=submit]:hover {
   transition: ease-in 0.25s;
-  background-color: --green;
+  background-color: var(--green);
   cursor: pointer;
 }
 
