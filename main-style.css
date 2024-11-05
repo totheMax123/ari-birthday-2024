@@ -10,7 +10,7 @@
 body {
   background-color: var(--darkpurple);
   font-family: var(--font);
-  cursor: url('bearpaw.png'), auto;
+  cursor: url('assets/bearpaw.png'), auto;
 }
 
 h1 {
