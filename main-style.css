@@ -139,16 +139,3 @@ input[type=submit]:hover {
   color: var(--purple);
   cursor: pointer;
 }
-
-button {
-    cursor: url('assets/bearpaw1.png'),auto;
-    width: 225px;
-    height: 50px;
-    font-size: 1.2rem;
-    font-family: "glowworm-mn", sans-serif;
-    padding: 5px 5px;
-    color: var(--purple);
-    background-color: var(--olive);
-    border: none;
-    margin: 20px;
-}
