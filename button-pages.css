@@ -10,7 +10,6 @@
 
 body {
     background-color: var(--darkpurple);
-    font-family: var(--font);
     padding: 40px 0;
     font-family: "glowworm-mn", sans-serif;
     background-color: #fff;
@@ -20,7 +19,7 @@ body {
 h1 {
     color: var(--purple);
     font-size: 5rem;
-    font-family: var(--font);
+    font-family: "glowworm-mn", sans-serif;
     text-align: center;
     
     position: relative;
@@ -28,7 +27,7 @@ h1 {
 }
 
 p {
-    font-family: var(--font);
+    font-family: "glowworm-mn", sans-serif;
     font-size: 3rem;
     width: 40%;
     color: var(--yellow);
@@ -41,7 +40,7 @@ p {
 
 p.center {
     text-align: center;
-    font-family: var(--font);
+    font-family: "glowworm-mn", sans-serif;
     font-size: 3rem;
     color: var(--yellow);
     
