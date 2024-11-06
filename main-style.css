@@ -113,6 +113,7 @@ input[type=submit]:hover {
   color: var(--purple);
   cursor: pointer;
 }
+
 button {
     cursor: url('assets/bearpaw1.png'),auto;
     width: 225px;
