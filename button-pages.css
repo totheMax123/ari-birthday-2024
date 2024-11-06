@@ -5,12 +5,12 @@
     --olive: rgb(75, 80, 67);
     --yellow: rgb(255, 250, 105);
     --center-offset: 150px;
-    --font: "Helvetica"
+    --font: "glowworm-mn", sans-serif;
   }
 
 body {
     background-color: var(--darkpurple);
-    font-family: "Helvetica";
+    font-family: var(--font);
     padding: 40px 0;
     font-family: 'bebas', sans-serif;
     background-color: #fff;
