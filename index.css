@@ -23,33 +23,7 @@
     margin: 20px;
 }
 
-.content {
-    padding: 20px;
-}
-
-/* Dark mode styles */
-body.dark-mode {
-    background-color: #360568;
-    color: #360568;
-}
-
-button.dark-mode {
-    background-color: #1F7A8C;
-    color: #1F7A8C;
-}
 </p>
-
-input[type=toggle-btn]:hover {
-    cursor: url('assets/bearpaw1.png'),auto;
-    width: 225px;
-    height: 50px;
-    font-size: 1.2rem;
-    font-family: "glowworm-mn", sans-serif;
-    padding: 5px 5px;
-    color: var(--purple);
-    background-color: var(--olive);
-    border: none;
-}
 
 input[type=submit]:hover {
     cursor: url('assets/bearpaw1.png'),auto;
