@@ -137,7 +137,17 @@ document.getElementById('toggle-btn').addEventListener('click', function() {
 <img src="https://proxy.everskies.com/a/https%3A%2F%2Fi.postimg.cc%2FYS2fztk4%2Fpetal2.gif" alt="petal" />
   </div>
 </div>
-   
+
+  <script>
+document.getElementById('toggle-btn').addEventListener('mousedown', function() {
+    document.body.style.cursor = 'url("assets/cursor-clicked.png"), auto';
+});
+
+document.getElementById('toggle-btn').addEventListener('mouseup', function() {
+    document.body.style.cursor = 'url("assets/bearpaw1.png"), auto';
+});
+</script>
+  
 </body>
 
 </html>
