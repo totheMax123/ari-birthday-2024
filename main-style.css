@@ -26,6 +26,33 @@ body {
     cursor: url('assets/bearpaw1.png'), auto;
 }
 
+body {
+  background-color:#f3f3f3;
+  overflow: hidden;
+  text-align:center;
+}
+
+body,
+html {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+
+svg{
+  width:100%;
+  height:100%;
+  visibility:hidden;
+}
+
+.hit{
+ cursor:pointer;
+ -webkit-tap-highlight-color:transparent;
+}
+
+
 body.dark-mode {
     background-color: #360568; /* Example dark background color */
     color: #E18AD4; /* Example text color for night mode */
