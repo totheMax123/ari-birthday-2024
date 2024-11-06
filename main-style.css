@@ -4,12 +4,14 @@
   --coral: rgb(247, 129, 84);
   --olive: rgb(75, 80, 67);
   --yellow: rgb(255, 250, 105);
-  --font: "Helvetica";
+  --font: "glowworm-mn";
 }
 
 body {
   background-color: var(--darkpurple);
-  font-family: var(--font);
+  font-family: "glowworm-mn", sans-serif;
+  font-weight: 400;
+  font-style: normal;
   cursor: url('assets/bearpaw1.png'), auto;
 }
 
