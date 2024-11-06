@@ -14,7 +14,7 @@ input[type=submit]:hover {
     width: 225px;
     height: 50px;
     font-size: 1.2rem;
-    font-family: var(--font);
+    font-family: "glowworm-mn", sans-serif;;
     padding: 5px 5px;
     color: var(--purple);
     background-color: var(--olive);
