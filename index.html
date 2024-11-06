@@ -14,6 +14,11 @@
 </head>
 
 <body>
+  <script>
+document.getElementById('toggle-btn').addEventListener('click', function() {
+    document.body.classList.toggle('dark-mode');
+});
+</script>
   <button id="toggle-btn">Toggle Night Mode</button>
   <div class="password-input">
     <form name="password_input" action="/ari-birthday-2024/main.html" method="get" onsubmit="return validate_password()">
