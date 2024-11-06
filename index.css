@@ -39,8 +39,7 @@ button.dark-mode {
 }
 </p>
 
-button:hover,
-input[type=submit]:hover {
+input[type=toggle-btn]:hover {
     cursor: url('assets/bearpaw1.png'),auto;
     width: 225px;
     height: 50px;
