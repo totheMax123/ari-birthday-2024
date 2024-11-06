@@ -26,6 +26,11 @@ body {
     cursor: url('assets/bearpaw1.png'), auto;
 }
 
+body.dark-mode {
+    background-color: #360568; /* Example dark background color */
+    color: #E18AD4; /* Example text color for night mode */
+}
+
 h1 {
   color: var(--purple);
   font-size: 5rem;
