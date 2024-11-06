@@ -33,7 +33,7 @@ body.new-style .hit {
     cursor: pointer;
     -webkit-tap-highlight-color: transparent;
 }
-<p> 
+
     button {
     cursor: url('assets/bearpaw1.png'),auto;
     width: 225px;
@@ -46,8 +46,6 @@ body.new-style .hit {
     border: none;
     margin: 20px;
 }
-
-</p>
 
 input[type=submit]:hover {
     cursor: url('assets/bearpaw1.png'),auto;
