@@ -1,9 +1,9 @@
 :root {
-    --purple: rgb(214, 174, 221);
-    --darkpurple: rgb(48, 5, 91);
-    --coral: rgb(247, 129, 84);
-    --olive: rgb(75, 80, 67);
-    --yellow: rgb(255, 250, 105);
+    --purple: rgb(176, 132, 204);
+    --darkpurple: rgb(118, 42, 116);
+    --coral: rgb(255, 125, 121);
+    --olive: rgb(65, 57, 62);
+    --yellow: rgb(160, 221, 255);
     --center-offset: 150px;
     --font: "glowworm-mn", sans-serif;
   }
