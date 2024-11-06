@@ -8,6 +8,27 @@
     left: 0;
     right: 0;
 }
+button {
+    margin: 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.content {
+    padding: 20px;
+}
+
+/* Dark mode styles */
+body.dark-mode {
+    background-color: #360568;
+    color: #fff;
+}
+
+button.dark-mode {
+    background-color: #1F7A8C;
+    color: #fff;
+}
+
 
 input[type=submit]:hover {
     cursor: url('assets/bearpaw1.png'),auto;
