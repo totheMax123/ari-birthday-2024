@@ -12,7 +12,6 @@ body {
     background-color: var(--darkpurple);
     padding: 40px 0;
     font-family: "glowworm-mn", sans-serif;
-    background-color: #fff;
     cursor: url('assets/bearpaw1.png'), auto;
 }
 
