@@ -1,5 +1,5 @@
 document.getElementById('toggle-btn').addEventListener('click', function() {
-    document.body.classList.toggle('dark-mode');
+    document.body.classList.toggle('new-style');
 });
 var select = function(s) {
     return document.querySelector(s);
