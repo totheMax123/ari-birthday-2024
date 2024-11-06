@@ -8,7 +8,9 @@
     left: 0;
     right: 0;
 }
-button {
+
+<p> 
+    button {
     margin: 20px;
     padding: 10px 20px;
     cursor: pointer;
@@ -28,8 +30,9 @@ button.dark-mode {
     background-color: #1F7A8C;
     color: #fff;
 }
+</p>
 
-
+button:hover,
 input[type=submit]:hover {
     cursor: url('assets/bearpaw1.png'),auto;
     width: 225px;
