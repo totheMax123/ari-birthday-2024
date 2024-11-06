@@ -1,3 +1,17 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "glowworm-mn", sans-serif;
+    /* Background image */
+    background-image: url('assets/background-image.png');
+    /* Make the background cover the entire page */
+    background-size: cover;
+    /* Center the background image */
+    background-position: center;
+    /* Ensure the background image does not repeat */
+    background-repeat: no-repeat;
+}
+
 .password-input {
     height: 100px;
     margin: auto;
@@ -14,7 +28,7 @@ input[type=submit]:hover {
     width: 225px;
     height: 50px;
     font-size: 1.2rem;
-    font-family: "glowworm-mn", sans-serif;;
+    font-family: "glowworm-mn", sans-serif;
     padding: 5px 5px;
     color: var(--purple);
     background-color: var(--olive);
