@@ -27,7 +27,7 @@ body {
     /* Make the background cover the entire page */
     background-size: cover;
     /* Center the background image */
-    background-position: 30% 40%; /* Change this line to shift the image off-center */
+    background-position: 30% 80%; /* Change this line to shift the image off-center */
     /* Ensure the background image does not repeat */
     background-repeat: no-repeat;
     cursor: url('assets/bearpaw1.png'), auto;
