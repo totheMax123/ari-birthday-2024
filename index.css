@@ -30,12 +30,12 @@
 /* Dark mode styles */
 body.dark-mode {
     background-color: #360568;
-    color: #fff;
+    color: #360568;
 }
 
 button.dark-mode {
     background-color: #1F7A8C;
-    color: #fff;
+    color: #1F7A8C;
 }
 </p>
 
