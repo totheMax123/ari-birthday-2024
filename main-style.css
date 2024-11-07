@@ -120,8 +120,7 @@ label[for=datepick] {
     margin-top: 20px;
 }
 
-input[type=submit]{
-.button-submit {
+input[type=submit] {
   padding: 0.6em 2em;
   border: none;
   outline: none;
@@ -135,7 +134,8 @@ input[type=submit]{
   -webkit-user-select: none;
   touch-action: manipulation;
 }
-.button-submit:before {
+
+input[type=submit]::before {
   content: "";
   background: linear-gradient(
     45deg,
@@ -162,6 +162,7 @@ input[type=submit]{
   transition: opacity 0.3s ease-in-out;
   border-radius: 10px;
 }
+
 @keyframes glowing-button-submit {
   0% {
     background-position: 0 0;
@@ -173,7 +174,8 @@ input[type=submit]{
     background-position: 0 0;
   }
 }
-.button-submit:after {
+
+input[type=submit]::after {
   z-index: -1;
   content: "";
   position: absolute;
@@ -183,7 +185,6 @@ input[type=submit]{
   left: 0;
   top: 0;
   border-radius: 10px; 
-}
 }
 
 input[type=submit]:hover {
