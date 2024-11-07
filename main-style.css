@@ -130,7 +130,7 @@ label[for=datepick] {
   100% {
     background-position: 0 0;
   }
-  
+}
 input[type=submit] {
   padding: 0.6em 2em;
   border: none;
