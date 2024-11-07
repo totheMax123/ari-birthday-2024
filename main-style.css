@@ -175,13 +175,3 @@ input[type=submit]::after {
   top: 0;
   border-radius: 10px; 
 }
-
-input[type=submit]:hover {
-  transition: ease-in 0.25s;
-  border: 2px solid var(--purple);
-  border-radius: 10px;
-  background-color: var(--darkpurple);
-  color: var(--purple);
-  cursor: pointer;
-}
-
