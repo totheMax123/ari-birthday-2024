@@ -30,7 +30,7 @@ body.new-style svg {
 }
 
 body.new-style .hit {
-    cursor: pointer;
+    cursor: url('assets/cursor-clicked.png),auto;
     -webkit-tap-highlight-color: transparent;
 }
 
