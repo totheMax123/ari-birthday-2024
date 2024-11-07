@@ -149,7 +149,7 @@ input[type=submit]:hover {
   border: none;
   outline: none;
   color: rgb(255, 255, 255);      /*button font color*/
-  background: radial-gradient (circle, #907AD6, #4F518C, #2C2A4A);  /*button background color*/
+  background: radial-gradient(circle, #907AD6, #4F518C, #2C2A4A);  /*button background color*/
   cursor: pointer;
   position: relative;
   z-index: 0;
