@@ -1,3 +1,9 @@
+doctype html
+html
+  head
+    title= Jam Sesh
+  body
+    h1= "play your tunes for Bongo Cat"
 .container
   svg(xmlns='http://www.w3.org/2000/svg' viewbox='0 0 783.55 354.91')
     g#bongo-cat
