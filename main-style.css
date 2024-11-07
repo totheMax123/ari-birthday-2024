@@ -22,7 +22,11 @@ body {
     font-family: "glowworm-mn", sans-serif;
     font-weight: 400;
     font-style: normal;
-    background-color: #b084cc;
+     background-image: url('assets/background-image.png'); /* Path to your background image */
+   background-size: cover; /* Make the image cover the entire background */
+  background-position: center; /* Center the image */
+  background-repeat: repeat; /* Prevent the image from repeating */
+  background-attachment: fixed; /* Make the background image fixed when scrolling */
     cursor: url('assets/bearpaw1.png'), auto;
     text-align:center;
 }
