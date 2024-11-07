@@ -120,21 +120,6 @@ label[for=datepick] {
     margin-top: 20px;
 }
 
-input[type=submit] {
-  padding: 0.6em 2em;
-  border: none;
-  outline: none;
-  color: rgb(255, 255, 255) !important;      /*button font color*/
-  background: radial-gradient(circle, #907AD6, #4F518C, #2C2A4A);  /*button background color*/
-  cursor: pointer;
-  position: relative;
-  z-index: 0;
-  border-radius: 10px;
-  user-select: none;
-  -webkit-user-select: none;
-  touch-action: manipulation;
-}
-
 input[type=submit]::before {
   content: "";
   background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
@@ -162,6 +147,21 @@ input[type=submit]::before {
   100% {
     background-position: 0 0;
   }
+  
+input[type=submit] {
+  padding: 0.6em 2em;
+  border: none;
+  outline: none;
+  color: rgb(255, 255, 255) !important;      /*button font color*/
+  background: radial-gradient(circle, #907AD6, #4F518C, #2C2A4A);  /*button background color*/
+  cursor: url('assets/cursor-clicked.png'), auto;
+  position: relative;
+  z-index: 0;
+  border-radius: 10px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
 }
 
 input[type=submit]::after {
