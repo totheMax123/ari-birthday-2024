@@ -4,7 +4,7 @@
 // Bongo Cat originally created by @StrayRogue and @DitzyFlama
 
 const ID = "bongo-cat";
-const s = (selector: string) => `#${ID} ${selector}`;
+const s = (selector) => `#${ID} ${selector}`;
 const notes = document.querySelectorAll(".note");
 
 for (let note of notes) {
