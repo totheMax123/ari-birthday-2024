@@ -96,7 +96,7 @@ form {
   touch-action: manipulation;
 }
 .button-ariism:before {
-  content: "ariism";
+  content: "";
   background: linear-gradient(
     45deg,
     #ff0000,
