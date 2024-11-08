@@ -16,46 +16,84 @@
   
   <style>
 .heart-button {
-    display: inline-block;
-    background-color: #ff69b4;
-    color: white;
-    border: none;
-    cursor: url('assets/bearpaw1.png'), auto;
-    position: relative;
-    padding: 10px 20px;
-    text-align: center;
-    font-size: 16px;
-    width: 100px;
-    height: 90px;
-    border-radius: 50px 50px 0 0;
-    transition: transform 0.3s, box-shadow 0.3s, background 0.3s;
-}
+      display: inline-block;
+      background-color: #ff69b4;
+      color: white;
+      border: none;
+      cursor: pointer;
+      position: relative;
+      padding: 10px;
+      text-align: center;
+      font-size: 16px;
+      width: 100px;
+      height: 90px;
+      border-radius: 50px 50px 0 0;
+      transition: transform 0.3s, box-shadow 0.3s, background 0.3s;
+    }
 
-.heart-button::before,
-.heart-button::after {
-    content: "";
-    position: absolute;
-    background-color: #ff69b4;
-    width: 100px;
-    height: 90px;
-    border-radius: 50%;
-}
+    .heart-button::before,
+    .heart-button::after {
+      content: "";
+      position: absolute;
+      background-color: #ff69b4;
+      width: 100px;
+      height: 90px;
+      border-radius: 50%;
+    }
 
-.heart-button::before {
-    top: -45px;
-    left: 0;
-}
+    .heart-button::before {
+      top: -45px;
+      left: 0;
+    }
 
-.heart-button::after {
-    left: 50px;
-    top: -45px;
-}
+    .heart-button::after {
+      left: 50px;
+      top: -45px;
+    }
 
-.heart-button:hover {
-    background-color: #ff1493;
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3), 0 0 15px rgba(255, 20, 147, 0.5);
-    transform: scale(1.05);
-}
+    .heart-button:hover {
+      background-color: #ff1493;
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3), 0 0 15px rgba(255, 20, 147, 0.5);
+      transform: scale(1.05);
+    }
+
+    .heart-button:hover::after {
+      content: "❤️";
+      position: absolute;
+      animation: rise-hearts 1s infinite;
+    }
+
+    @keyframes rise-hearts {
+      0% {
+        opacity: 1;
+        transform: translateY(0) scale(1);
+      }
+      100% {
+        opacity: 0;
+        transform: translateY(-100px) scale(0.5);
+      }
+    }
+
+    .heart {
+      position: absolute;
+      width: 10px;
+      height: 10px;
+      background-color: blue;
+      clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+      opacity: 0;
+      animation: sparkle 2s ease-in-out infinite;
+    }
+
+    @keyframes sparkle {
+      0% {
+        transform: translateY(0) scale(1);
+        opacity: 1;
+      }
+      100% {
+        transform: translateY(-100px) scale(0.5);
+        opacity: 0;
+      }
+    }
   </style>
   
 </head>
@@ -105,6 +143,23 @@
       <img src="https://proxy.everskies.com/a/https%3A%2F%2Fi.postimg.cc%2FYS2fztk4%2Fpetal2.gif" alt="petal" />
     </div>
   </div>
+
+ <!-- This is the heart java script-->
+    <script>
+    document.querySelector('.heart-button').addEventListener('mouseover', function() {
+      for (let i = 0; i < 100; i++) {
+        const heart = document.createElement('div');
+        heart.classList.add('heart');
+        heart.style.left = `${Math.random() * 100}%`;
+        heart.style.top = `${Math.random() * 100}%`;
+        document.body.appendChild(heart);
+
+        setTimeout(() => {
+          heart.remove();
+        }, 2000);
+      }
+    });
+  </script>
   
 </body>
 
