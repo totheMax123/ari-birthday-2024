@@ -7,6 +7,23 @@
   /* I did not change the color names cause I was lazy but I did change the RGB values so have fun with that 
 thats messed up man  - Max */
   --font: "Helvetica";
+
+.glow {
+  font-size: 2em;
+  color: #fff;
+  text-align: center;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@keyframes glow {
+  from {
+    text-shadow: 0 0 10px #ff69b4, 0 0 20px #ff69b4, 0 0 30px #ff69b4, 0 0 40px #ff69b4, 0 0 50px #ff69b4, 0 0 60px #ff69b4, 0 0 70px #ff69b4;
+  }
+  to {
+    text-shadow: 0 0 20px #ff1493, 0 0 30px #ff1493, 0 0 40px #ff1493, 0 0 50px #ff1493, 0 0 60px #ff1493, 0 0 70px #ff1493, 0 0 80px #ff1493;
+  }
+}
+ 
 }
 .snowflake {
   color: #fff;
