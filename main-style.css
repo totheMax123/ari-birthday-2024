@@ -50,12 +50,28 @@ body {
 }
 
 .sidebar {
-    width: 200px;
-    background-color: rgba(244, 244, 244, 0.8); /* Adjust the last value for transparency */
-    padding: 15px;
-    box-shadow: 2px 0 5px rgba(0,0,0,0.1);
-    height: 100vh;
-    position: fixed;
+  width: 250px;
+  height: 100vh;
+  background: linear-gradient(45deg, #a8e6cf, #00bfa5, #26c6da, #80deea, #a8e6cf);
+  background-size: 400% 400%;
+  animation: lavaLamp 10s ease infinite;
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 20px;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+}
+
+@keyframes lavaLamp {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
 
 .sidebar .mainForm input[type="submit"] {
