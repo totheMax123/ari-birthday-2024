@@ -14,108 +14,53 @@
 
   <title>Ari and Max ♡</title>
   <style>
-    .password-input {
-      height: 100px;
-      margin: auto;
-      position: absolute;
-      top: -30%;
-      bottom: 0;
-      left: 0;
-      right: 0;
-    }
-
-    body.new-style {
-      background-color: #f3f3f3;
-      overflow: hidden;
-      text-align: center;
-    }
-
-    body.new-style,
-    html.new-style {
-      height: 100%;
-      width: 100%;
-      margin: 0;
-      padding: 0;
-    }
-
-    body.new-style svg {
-      width: 100%;
-      height: 100%;
-      visibility: hidden;
-    }
-
-    body.new-style .hit {
-      cursor: url('assets/cursor-clicked.png'), auto;
-      -webkit-tap-highlight-color: transparent;
-    }
-
-    input[type=submit]:hover {
-      cursor: url('assets/bearpaw1.png'), auto;
-      border: none;
-      padding: 5px 5px;
-      color: var(--purple);
-      background-color: var(--olive);
-    }
-
     .heart-button {
-      display: inline-block;
       background-color: #ff69b4;
-      color: white;
       border: none;
-      cursor: pointer;
-      position: relative;
-      padding: 10px;
+      color: white;
+      padding: 10px 20px;
       text-align: center;
+      text-decoration: none;
+      display: inline-block;
       font-size: 16px;
-      width: 100px;
-      height: 90px;
-      border-radius: 50px 50px 0 0;
-      transition: transform 0.3s, box-shadow 0.3s, background 0.3s;
+      margin: 4px 2px;
+      cursor: pointer;
+      border-radius: 50%;
+      position: relative;
+      width: 50px;
+      height: 50px;
     }
 
-    .heart-button::before,
-    .heart-button::after {
+    .heart-button:before,
+    .heart-button:after {
       content: "";
       position: absolute;
-      background-color: #ff69b4;
-      width: 100px;
-      height: 90px;
+      top: 0;
+      left: 50%;
+      width: 50px;
+      height: 50px;
       border-radius: 50%;
+      background-color: #ff69b4;
     }
 
-    .heart-button::before {
-      top: -45px;
-      left: 0;
+    .heart-button:before {
+      transform: translate(-50%, -50%);
     }
 
-    .heart-button::after {
-      left: 50px;
-      top: -45px;
+    .heart-button:after {
+      transform: translate(-50%, 50%);
     }
-
-    .heart-button:hover {
-      background-color: #ff1493;
-      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3), 0 0 15px rgba(255, 20, 147, 0.5);
-      transform: scale(1.05);
-    }
-
-    .heart-button:hover::after {
-      content: "❤️";
-      position: absolute;
-      animation: rise-hearts 1s infinite;
-    }
-
-    @keyframes rise-hearts {
-      0% {
-        opacity: 1;
-        transform: translateY(0) scale(1);
-      }
-      100% {
-        opacity: 0;
-        transform: translateY(-100px) scale(0.5);
-      }
-    }
-
+  </style>
+</head>
+  
+<body> 
+  
+  <div class="password-input">
+    <form name="password_input" action="/ari-birthday-2024/main.html" method="get" onsubmit="return validate_password()">
+      <label for="datepick">Password: </label>
+      <input type="date" id="datepick" name="datepick"><br><br>
+      <input type="submit" value="Submit" class="heart-button">
+    </form>
     <p>
       Hint: it's a very special date...
     </p>
