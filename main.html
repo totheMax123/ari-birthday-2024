@@ -12,6 +12,29 @@
             font-family: "glowworm-mn", sans-serif;
             background: radial-gradient(circle, rgb(205, 180, 219), rgb(255, 200, 221), rgb(255, 175, 204), rgb(189, 224, 254), rgb(162, 210, 255));
         }
+          .sidebar {
+      width: 250px;
+      height: 100vh;
+      background: linear-gradient(45deg, #a8e6cf, #00bfa5, #26c6da, #80deea, #a8e6cf);
+      background-size: 400% 400%;
+      animation: lavaLamp 10s ease infinite;
+      position: fixed;
+      top: 0;
+      left: 0;
+      padding: 20px;
+      box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+    }
+
+    @keyframes lavaLamp {
+      0% {
+        background-position: 0% 50%;
+      }
+      50% {
+        background-position: 100% 50%;
+      }
+      100% {
+        background-position: 0% 50%;
+      }
        .glow {
       font-size: 20em;
       color: #fff;
