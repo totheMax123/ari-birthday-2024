@@ -12,6 +12,47 @@
             font-family: "glowworm-mn", sans-serif;
             background: radial-gradient(circle, rgb(205, 180, 219), rgb(255, 200, 221), rgb(255, 175, 204), rgb(189, 224, 254), rgb(162, 210, 255));
         }
+       .glow {
+      font-size: 8em;
+      color: #fff;
+      text-align: center;
+      animation: glow 1s ease-in-out infinite alternate;
+    }
+
+    @keyframes glow {
+      from {
+        text-shadow: 0 0 10px #ff69b4, 0 0 20px #ff69b4, 0 0 30px #ff69b4, 0 0 40px #ff69b4, 0 0 50px #ff69b4, 0 0 60px #ff69b4, 0 0 70px #ff69b4;
+      }
+      to {
+        text-shadow: 0 0 20px #ff1493, 0 0 30px #ff1493, 0 0 40px #ff1493, 0 0 50px #ff1493, 0 0 60px #ff1493, 0 0 70px #ff1493, 0 0 80px #ff1493;
+      }
+    }
+
+    .gradient-text {
+      font-size: 2em;
+      background: linear-gradient(45deg, #ff69b4, #ff1493, #ff69b4);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      animation: gradient 3s ease-in-out infinite;
+    }
+
+    @keyframes gradient {
+      0% {
+        background-position: 0% 50%;
+      }
+      50% {
+        background-position: 100% 50%;
+      }
+      100% {
+        background-position: 0% 50%;
+      }
+    }
+
+    .shadow-text {
+      font-size: 2em;
+      color: #ff69b4;
+      text-shadow: 2px 2px 4px #000000;
+    }
     </style>
     <title>Max & Ari</title>
 </head>
