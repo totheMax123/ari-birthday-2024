@@ -52,7 +52,7 @@ body {
     cursor: pointer;
     text-align: left;
     border-radius: 10px; /* Rounded corners */
-    transition: transform 0.3s, box-shadow 0.3s, background 0.3s; /* Smooth transition *
+    transition: transform 0.3s, box-shadow 0.3s, background 0.3s; /* Smooth transition */
 }
 
 .sidebar .mainForm input[type="submit"]:hover {
