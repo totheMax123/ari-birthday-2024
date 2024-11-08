@@ -12,7 +12,8 @@
             font-family: "glowworm-mn", sans-serif;
             background: radial-gradient(circle, rgb(205, 180, 219), rgb(255, 200, 221), rgb(255, 175, 204), rgb(189, 224, 254), rgb(162, 210, 255));
         }
-          .sidebar {
+        
+ .sidebar {
       width: 250px;
       height: 100vh;
       background: linear-gradient(45deg, #a8e6cf, #00bfa5, #26c6da, #80deea, #a8e6cf);
@@ -23,6 +24,7 @@
       left: 0;
       padding: 20px;
       box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+      overflow: hidden;
     }
 
     @keyframes lavaLamp {
@@ -35,13 +37,36 @@
       100% {
         background-position: 0% 50%;
       }
-       .glow {
-      font-size: 20em;
-      color: #fff;
-      text-align: center;
-      animation: glow 1s ease-in-out infinite alternate;
     }
 
+    .bubbles {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+    }
+
+    .bubble {
+      position: absolute;
+      bottom: -100px;
+      width: 40px;
+      height: 40px;
+      background-color: rgba(255, 255, 255, 0.3);
+      border-radius: 50%;
+      animation: bubble 10s infinite;
+    }
+
+    @keyframes bubble {
+      0% {
+        transform: translateY(0) scale(1);
+        opacity: 1;
+      }
+      100% {
+        transform: translateY(-1000px) scale(1.5);
+        opacity: 0;
+      }
+    }
+<!-- uhh below is text stuff and above is side bar stuff teehee -->
     @keyframes glow {
       from {
         text-shadow: 0 0 10px #ff69b4, 0 0 20px #ff69b4, 0 0 30px #ff69b4, 0 0 40px #ff69b4, 0 0 50px #ff69b4, 0 0 60px #ff69b4, 0 0 70px #ff69b4;
