@@ -108,5 +108,24 @@
             <img src="birthday-cake.png" alt="Birthday Cake" style="width: 400px; height: auto;">
         </div>
     </div>
+
+    <script>
+  function createBubble() {
+    const bubble = document.createElement('div');
+    bubble.classList.add('bubble');
+    bubble.style.left = `${Math.random() * 100}%`;
+    bubble.style.width = `${Math.random() * 40 + 20}px`; // Random width between 20px and 60px
+    bubble.style.height = bubble.style.width; // Keep the bubble circular
+    bubble.style.animationDuration = `${Math.random() * 10 + 10}s`; // Slower animation
+    document.querySelector('.bubbles').appendChild(bubble);
+
+    setTimeout(() => {
+      bubble.remove();
+    }, 20000); // Remove bubble after animation
+  }
+
+  setInterval(createBubble, 300); // Create a new bubble every 300ms
+</script>
+    
 </body>
 </html>
