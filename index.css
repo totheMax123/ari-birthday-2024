@@ -34,25 +34,71 @@ body.new-style .hit {
     -webkit-tap-highlight-color: transparent;
 }
 
-    button {
-    cursor: url('assets/bearpaw1.png'),auto;
-    width: 225px;
-    height: 50px;
-    font-size: 1.2rem;
-    font-family: "glowworm-mn", sans-serif;
-    padding: 5px 5px;
-    color: var(--purple);
-    background-color: var(--olive);
-    border: none;
-    margin: 20px;
-}
-
 input[type=submit]:hover {
     cursor: url('assets/bearpaw1.png'),auto;
     border: none;
     padding: 5px 5px;
     color: var(--purple);
     background-color: var(--olive);
+}
+
+.heart-button {
+    display: inline-block;
+    background-color: #ff69b4;
+    color: white;
+    border: none;
+    cursor: pointer;
+    position: relative;
+    padding: 10px;
+    text-align: center;
+    font-size: 16px;
+    width: 100px;
+    height: 90px;
+    border-radius: 50px 50px 0 0;
+    transition: transform 0.3s, box-shadow 0.3s, background 0.3s;
+}
+
+.heart-button::before,
+.heart-button::after {
+    content: "";
+    position: absolute;
+    background-color: #ff69b4;
+    width: 100px;
+    height: 90px;
+    border-radius: 50%;
+}
+
+.heart-button::before {
+    top: -45px;
+    left: 0;
+}
+
+.heart-button::after {
+    left: 50px;
+    top: -45px;
+}
+
+.heart-button:hover {
+    background-color: #ff1493;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3), 0 0 15px rgba(255, 20, 147, 0.5);
+    transform: scale(1.05);
+}
+
+.heart-button:hover::after {
+    content: "❤️";
+    position: absolute;
+    animation: rise-hearts 1s infinite;
+}
+
+@keyframes rise-hearts {
+    0% {
+        opacity: 1;
+        transform: translateY(0) scale(1);
+    }
+    100% {
+        opacity: 0;
+        transform: translateY(-100px) scale(0.5);
+    }
 }
 
 p {
